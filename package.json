@@ -1,0 +1,10 @@
+{
+  "name": "wp-translator-helper",
+  "version": "0.0.1",
+  "scripts": {
+    "wp": "wpcmd() { docker exec $(docker ps -lq) /bin/bash -c \"su -l www-data -c wp $(echo $@)\"; };wpcmd "
+  },
+  "dependencies": {},
+  "devDependencies": {
+  }
+}
